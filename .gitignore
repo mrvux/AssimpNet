@@ -11,3 +11,12 @@
 *.lai
 *.la
 *.a
+
+build
+
+*.log
+*.ncb
+*.sdf
+*.opensdf
+*.user
+*.suo
