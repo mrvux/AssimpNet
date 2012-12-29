@@ -33,16 +33,17 @@ public:
 
 	void Write(DataStream^ vertices);
 
-	System::IntPtr Positions() { return System::IntPtr(&this->m_pMesh->mVertices[0]);}
-
 	List<SlimDX::Direct3D11::InputElement>^ GetInputElements();
 	int CalculateVertexSize();
 	void Initialize();
 internal:
 	AssimpMesh(const aiScene* scene, aiMesh* mesh);
 
-private:
+protected:
 	aiMesh* m_pMesh;
+
+private:
+	
 
 	void LoadIndices();
 	void LoadVertices();

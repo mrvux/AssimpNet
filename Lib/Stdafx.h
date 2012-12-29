@@ -12,11 +12,8 @@ using namespace System::Collections::Generic;
 using namespace SlimDX;
 using namespace SlimDX::Direct3D11;
 
-// assimp include files. These three are usually needed.
 #include "scene.h"
 #include "postprocess.h"
 #include "cimport.h"
-//#include "aiPostProcess.h"
-//#include "aiScene.h"
 
 
