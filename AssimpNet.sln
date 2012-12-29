@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AssimpNet", "Lib\VVVV.Assimp.Lib.vcxproj", "{653F0DBD-DF18-443F-A3C1-6FB763E2D631}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D45FE574-C4E9-4061-B7F2-F9C029B44AFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{4EB054FF-587B-4ED5-AEB3-9FBE0BA2C59F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{653F0DBD-DF18-443F-A3C1-6FB763E2D631}.Debug|Win32.ActiveCfg = Debug|Win32
+		{653F0DBD-DF18-443F-A3C1-6FB763E2D631}.Debug|Win32.Build.0 = Debug|Win32
+		{653F0DBD-DF18-443F-A3C1-6FB763E2D631}.Release|Win32.ActiveCfg = Release|Win32
+		{653F0DBD-DF18-443F-A3C1-6FB763E2D631}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{653F0DBD-DF18-443F-A3C1-6FB763E2D631} = {D45FE574-C4E9-4061-B7F2-F9C029B44AFB}
+	EndGlobalSection
+EndGlobal
