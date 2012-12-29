@@ -2,7 +2,7 @@
 
 #include <vector>
 
-namespace VVVV { namespace Assimp { namespace Lib {
+namespace AssimpNet {
 
 public ref class AssimpMesh : IDisposable
 {
@@ -61,4 +61,4 @@ private:
 	
 };
 
-}}}
+}

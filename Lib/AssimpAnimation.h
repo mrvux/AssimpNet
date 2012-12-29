@@ -2,7 +2,7 @@
 
 #include "AssimpAnimationChannel.h"
 
-namespace VVVV { namespace Assimp { namespace Lib {
+namespace AssimpNet {
 
 public ref class AssimpAnimation
 {
@@ -22,6 +22,6 @@ private:
 	List<AssimpAnimationChannel^>^ m_channels;
 };
 
-}}}
+}
 
 

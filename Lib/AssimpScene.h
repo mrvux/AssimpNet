@@ -6,7 +6,7 @@
 #include "AssimpAnimation.h"
 #include "AssimpMaterial.h"
 
-namespace VVVV { namespace Assimp { namespace Lib {
+namespace AssimpNet {
 
 	public ref class AssimpScene : IDisposable
 {
@@ -35,4 +35,4 @@ private:
 
 };
 
-}}}
+}

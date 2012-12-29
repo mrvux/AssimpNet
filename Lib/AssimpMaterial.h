@@ -1,6 +1,6 @@
 #pragma once
 
-namespace VVVV { namespace Assimp { namespace Lib {
+namespace AssimpNet {
 
 	public enum class eAssimpTextureType { Diffuse = aiTextureType_DIFFUSE , Specular = aiTextureType_SPECULAR , Ambient = aiTextureType_AMBIENT, 
 		Emissive =aiTextureType_EMISSIVE , Height = aiTextureType_HEIGHT , Normals = aiTextureType_NORMALS , Shininesss = aiTextureType_SHININESS ,
@@ -46,5 +46,5 @@ namespace VVVV { namespace Assimp { namespace Lib {
 		float m_specularpower;
 	};
 
-}}}
+}
 

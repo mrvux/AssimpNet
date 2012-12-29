@@ -1,7 +1,7 @@
 #include "StdAfx.h"
 #include "AssimpMesh.h"
 
-namespace VVVV { namespace Assimp { namespace Lib {
+namespace AssimpNet {
 
 AssimpMesh::AssimpMesh(void)
 {
@@ -450,4 +450,4 @@ int AssimpMesh::CalculateVertexSize()
 }
 
 
-}}}
+}

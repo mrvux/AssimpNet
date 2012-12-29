@@ -1,6 +1,6 @@
 #pragma once
 
-namespace VVVV { namespace Assimp { namespace Lib {
+namespace AssimpNet {
 
 public ref class AssimpCamera
 {
@@ -22,4 +22,4 @@ private:
 	aiCamera* m_pCam;
 };
 
-}}}
+}

@@ -1,6 +1,6 @@
 #pragma once
 
-namespace VVVV { namespace Assimp { namespace Lib {
+namespace AssimpNet {
 
 	public ref class AnimVectorKey
 	{
@@ -39,4 +39,4 @@ namespace VVVV { namespace Assimp { namespace Lib {
 
 	};
 
-}}}
+}

@@ -1,7 +1,7 @@
 #include "StdAfx.h"
 #include "AssimpMaterial.h"
 
-namespace VVVV { namespace Assimp { namespace Lib {
+namespace AssimpNet {
 
 AssimpMaterial::AssimpMaterial(void)
 {
@@ -56,4 +56,4 @@ AssimpMaterial::AssimpMaterial(aiMaterial* material)
 	this->m_specularpower = specularpower;
 }
 
-}}}
+}

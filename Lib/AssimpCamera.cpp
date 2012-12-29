@@ -1,7 +1,7 @@
 #include "StdAfx.h"
 #include "AssimpCamera.h"
 
-namespace VVVV { namespace Assimp { namespace Lib {
+namespace AssimpNet {
 
 AssimpCamera::AssimpCamera(void)
 {
@@ -56,4 +56,4 @@ float AssimpCamera::AspectRatio::get()
 	return this->m_pCam->mAspect;
 }
 
-}}}
+}

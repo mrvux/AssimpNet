@@ -1,7 +1,7 @@
 #include "StdAfx.h"
 #include "AssimpScene.h"
 
-namespace VVVV { namespace Assimp { namespace Lib {
+namespace AssimpNet {
 
 AssimpScene::AssimpScene(void)
 {
@@ -112,4 +112,4 @@ List<AssimpMaterial^>^ AssimpScene::Materials::get()
 	return this->m_materials;
 }
 
-}}}
+}

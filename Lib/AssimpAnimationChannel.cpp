@@ -1,7 +1,7 @@
 #include "StdAfx.h"
 #include "AssimpAnimationChannel.h"
 
-namespace VVVV { namespace Assimp { namespace Lib {
+namespace AssimpNet {
 
 AssimpAnimationChannel::AssimpAnimationChannel(void)
 {
@@ -67,4 +67,4 @@ List<AnimQuatKey^>^ AssimpAnimationChannel::RotationKeys::get()
 }
 
 
-}}}
+}

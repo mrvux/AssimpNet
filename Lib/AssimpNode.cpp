@@ -1,7 +1,7 @@
 #include "StdAfx.h"
 #include "AssimpNode.h"
 
-namespace VVVV { namespace Assimp { namespace Lib {
+namespace AssimpNet {
 
 AssimpNode::AssimpNode(AssimpNode^ parent,aiNode* node)
 {
@@ -95,4 +95,4 @@ Matrix AssimpNode::GetTransform(aiMatrix4x4 tr)
 
 
 
-}}}
+}

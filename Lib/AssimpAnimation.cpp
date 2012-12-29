@@ -1,7 +1,7 @@
 #include "StdAfx.h"
 #include "AssimpAnimation.h"
 
-namespace VVVV { namespace Assimp { namespace Lib {
+namespace AssimpNet {
 
 AssimpAnimation::AssimpAnimation(void)
 {
@@ -47,4 +47,4 @@ List<AssimpAnimationChannel^>^ AssimpAnimation::Channels::get()
 	return this->m_channels;
 }
 
-}}}
+}
