@@ -5,7 +5,7 @@ namespace AssimpNet {
 public ref class AssimpNode
 {
 public:
-	property String^ Name { String^ get(); }
+	property String^ Name { String^ get() { return m_name; } }
 	property int MeshCount { int get(); }
 	property List<int>^ MeshIndices { List<int>^ get(); }
 	property Matrix LocalTransform { Matrix get(); }
@@ -22,6 +22,8 @@ private:
 
 	Matrix localtr;
 	Matrix relativetr;
+
+	String^ m_name;
 };
 
 }

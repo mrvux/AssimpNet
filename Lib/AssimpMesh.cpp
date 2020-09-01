@@ -30,6 +30,8 @@ AssimpMesh::AssimpMesh(const aiScene* scene,aiMesh* mesh)
 
 		this->m_bonemats->Add(this->GetTransform(bone->mOffsetMatrix));
 	}
+
+	m_name = gcnew String(mesh->mName.data);
 }
 
 void AssimpMesh::Initialize()

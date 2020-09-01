@@ -7,7 +7,7 @@ public ref class AssimpCamera
 public:
 	AssimpCamera(void);
 
-	property String^ Name { String^ get(); }
+	property String^ Name { String^ get() { return m_name; } }
 	property Vector3 Position { Vector3 get(); }
 	property Vector3 UpVector { Vector3 get(); }
 	property Vector3 LookAt { Vector3 get(); }
@@ -20,6 +20,7 @@ internal:
 	AssimpCamera(aiCamera* cam);
 private:
 	aiCamera* m_pCam;
+	String^ m_name;
 };
 
 }

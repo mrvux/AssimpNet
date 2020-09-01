@@ -24,17 +24,12 @@ AssimpNode::AssimpNode(AssimpNode^ parent,aiNode* node)
 	{
 		this->m_children->Add(gcnew AssimpNode(this,node->mChildren[i]));
 	}
-
+	m_name = gcnew String(node->mName.data);
 }
 
 int AssimpNode::MeshCount::get()
 {
 	return this->m_pNode->mNumMeshes;
-}
-
-String^ AssimpNode::Name::get()
-{
-	return gcnew String(this->m_pNode->mName.data);
 }
 
 List<int>^ AssimpNode::MeshIndices::get()

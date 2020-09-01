@@ -31,11 +31,13 @@ namespace AssimpNet {
 		property SlimDX::Color4 DiffuseColor { SlimDX::Color4 get() { return this->m_diffuse; } }
 		property SlimDX::Color4 SpecularColor { SlimDX::Color4 get() { return this->m_specular; } }
 		property float SpecularPower { float get() { return this->m_specularpower; } }
+		property String^ Name { String^ get() { return this->m_name; } }
 	internal:
 		AssimpMaterial(aiMaterial* material);
 	private:
 		aiMaterial* m_pMaterial;
 		
+
 		List<String^>^ m_texturepath;
 		List<eAssimpTextureType>^ m_texturetype;
 		List<eAssimpTextureMapMode>^ m_texturemapmode;
@@ -43,6 +45,7 @@ namespace AssimpNet {
 		SlimDX::Color4 m_ambient;
 		SlimDX::Color4 m_diffuse;
 		SlimDX::Color4 m_specular;
+		String^ m_name;
 		float m_specularpower;
 	};
 

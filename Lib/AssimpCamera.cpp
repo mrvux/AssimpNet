@@ -10,12 +10,7 @@ AssimpCamera::AssimpCamera(void)
 AssimpCamera::AssimpCamera(aiCamera* cam)
 {
 	this->m_pCam = cam;
-	
-}
-
-String^ AssimpCamera::Name::get()
-{
-	return gcnew String(this->m_pCam->mName.data);
+	m_name = gcnew String(this->m_pCam->mName.data);
 }
 
 Vector3 AssimpCamera::Position::get()

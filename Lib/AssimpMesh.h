@@ -31,6 +31,8 @@ public:
 	property DataStream^ Vertices { DataStream^ get(); }
 	property SlimDX::BoundingBox BoundingBox { SlimDX::BoundingBox get(); }
 
+	property String^ Name { String^ get() { return m_name; } }
+
 	void Write(DataStream^ vertices);
 
 	List<SlimDX::Direct3D11::InputElement>^ GetInputElements();
@@ -55,6 +57,7 @@ private:
 	DataStream^ m_vertices;
 	SlimDX::BoundingBox m_bb;
 	int m_maxBonePerVertex;
+	String^ m_name;
 
 	Matrix GetTransform(aiMatrix4x4 tr);
 	aiNode* FindNodeRecursivelyByName(aiNode* root,const aiString name);
