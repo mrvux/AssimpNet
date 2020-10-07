@@ -12,8 +12,8 @@ using namespace System::Collections::Generic;
 using namespace SlimDX;
 using namespace SlimDX::Direct3D11;
 
-#include "scene.h"
-#include "postprocess.h"
-#include "cimport.h"
+#include "assimp/scene.h"
+#include "assimp/postprocess.h"
+#include "assimp/cimport.h"
 
 
